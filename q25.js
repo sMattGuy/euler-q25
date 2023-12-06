@@ -9,9 +9,5 @@ while(current.toString().length != target){
 	current = f1+f2;
 	f1 = f2;
 	f2 = current;
-	console.log(iteration);
-	if(iteration > 4782){
-		console.log(`failed! f1:${f1} f2:${f2} current:${current}`);
-		return;
-	}
 }
+console.log(iteration);
